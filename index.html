@@ -8,14 +8,144 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
 	<link rel="stylesheet" href="css/style.css">
 
     
   </head>
   <body>
   	<div class="container">
-  		
+  		<h1>Basic Typography</h1>
+  		uses rems
+  		avoid maring-top
+  		uses inhert when possible
+  		uses border-box for box sizing
+
+  		<div class="h1"></div>
+  		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  		</p>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  		<div class=display-1>bigger than h1</div>
+
+  		<h1>Typograpic utility</h1>
+  		ALIGN UTILITIES
+  		text-justify
+  		text-nowrap
+  		text-md-center
+
+  		<p class= "text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  		<p class= "text-left text-md-right">gna aliqua. Ut enim ad minim veniam,
+  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  		CAPITALIZATION 
+  		text-lowercase
+  		text-uppercase
+  		text-capitalize
+
+  		TEXT STYLES
+  		font-weight-bold
+  		font-weight-normal
+
+  		BLOCKQUOTE AND LIST
+  		list-unstlyed
+  		list-inline on ul
+  		list-inline-item on lis
+
+  		<ul class="list-unstlyed list-inline">
+  			<li class="list-inline-item">one</li>
+  			<li class="list-inline-item">two</li>
+  			<li class="list-inline-item">three</li>
+  		</ul>
+  		<blockquote class="blockquote blockquote-reverse">
+  			here i am here i am
+  			<div class="blockquote-footer">matilda</div>
+  		</blockquote>
+
+  		USING COLORS
+  		text-color
+  			text-primary or secondary, sucess, danger, warning, info, light, dark, white
+  		use for links
+  			same for links
+  		background colors
+  			bg-COLOR
+  				bg-primary or secondary, sucess, danger, warning, info, light, dark, white
+
+  		<div class="bg-info">
+  			<a href="#" class="text-warning">imdb</a>
+  			<p class="text-danger">checkout out my resume</p>
+  		</div>
+
+
+  		WORKING WITH IMAGES
+  			img-fluid = response images
+  			rounded, rounded-DIR -top,right,bottom,left, circle, rounded-0
+  			img-thumbnail = rounded 1px border
+
+  			ALIGN IMAGEs
+  			float-left float-righ
+  			text-center = center inline on container
+  			mx-auto  = block images
+
+  			FIGUREs
+  			<style>
+  				img{
+  					width: 200px;
+  				}
+
+  				:root{
+  					--pink: #c4de3f;
+  				}
+  			</style>
+  			<br>
+  			<figure class="figure">
+  				<img class="img-fluid rounded-top float-left" src="img/js.jpg">
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  			</figure>
+
+  			EXPLORE FIGURES
+
+  			CSS VARIABLES
+  			var() and :root
+  				color context vars
+  				media querys
+  				fonts
+  			<p style="color: var(--pink0);">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+
+
+
   	</div>
 
     <!-- Optional JavaScript -->
