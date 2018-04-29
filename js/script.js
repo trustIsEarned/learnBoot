@@ -37,7 +37,7 @@
 
 
 
-debugger;
+
 function makeCounter() {
   let count = 0;
 
@@ -49,9 +49,5 @@ function makeCounter() {
 let counter = makeCounter();
 let counter2 = makeCounter();
 
-alert( counter() ); // 0
-alert( counter() ); // 1
 
-alert( counter2() ); // ?
-alert( counter2() ); // ?
 
